@@ -1,0 +1,67 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.navBar {
+  margin-bottom: 3%;
+}
+span {
+  margin-right: 4%;
+  font-weight: bold;
+}
+#searchBar {
+  width: 40%;
+  padding: 1%;
+  background-color: #f0f0f0;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+button {
+  padding: 1% 2%;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #ffc864;
+}
+.hidden {
+  display: none;
+}
+#cardsBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+  margin-bottom: 3%;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+
+  width: 30%;
+  min-width: 200px;
+  height: 200px;
+  padding: 5px;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px black;
+}
+.imgAuthor {
+  color: white;
+
+  /* font-weight: bold; */
+}
+.download {
+  color: white;
+  font-size: 1.5em;
+}
+.download:hover {
+  color: #ffc864;
+}
